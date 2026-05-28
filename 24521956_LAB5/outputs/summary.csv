@@ -1,0 +1,6 @@
+assignment,algorithm,title,main_score,comment
+1,KMeans,Bài 1 - 3 cụm cân bằng,0.985,Dữ liệu gồm 3 cụm có cùng số lượng điểm và cùng covariance nên KMeans phân cụm khá tốt.
+2,KMeans,Bài 2 - Kích thước cụm không cân bằng 1200-200-1000,0.9770833333333333,"Dữ liệu bài 2 có kích thước 1200, 200 và 1000 nên các cụm không cân bằng. KMeans vẫn có thể phân cụm tốt khi các cụm tách biệt, nhưng cụm nhỏ 200 điểm dễ bị ảnh hưởng bởi cách khởi tạo centroid hơn."
+3,KMeans,Bài 3 - Một cụm bị kéo dài,0.8983333333333333,Một cụm có covariance lớn theo trục x nên có dạng elip. KMeans chỉ dùng khoảng cách đến tâm cụm nên xử lý dạng cụm này không tốt bằng GMM.
+4,GMM,Bài 4 - Gaussian Mixture Model,0.9616666666666667,GMM mô hình hóa cả mean và covariance nên phù hợp hơn KMeans khi cụm có dạng elip.
+5,GMM image filtering,Bài 5 - Lọc nền ảnh bằng GMM,446616.91167479625,"Mỗi pixel được xem là một điểm dữ liệu RGB. GMM gom các pixel thành nhiều nhóm màu, sau đó chọn nhóm nền dựa trên số lượng pixel và độ xanh."

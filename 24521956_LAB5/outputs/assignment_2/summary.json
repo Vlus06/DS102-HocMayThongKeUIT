@@ -1,0 +1,39 @@
+{
+    "assignment": 2,
+    "algorithm": "KMeans",
+    "title": "Bài 2 - Kích thước cụm không cân bằng 1200-200-1000",
+    "comment": "Dữ liệu bài 2 có kích thước 1200, 200 và 1000 nên các cụm không cân bằng. KMeans vẫn có thể phân cụm tốt khi các cụm tách biệt, nhưng cụm nhỏ 200 điểm dễ bị ảnh hưởng bởi cách khởi tạo centroid hơn.",
+    "accuracy": 0.9770833333333333,
+    "label_map": [
+        0,
+        1,
+        2
+    ],
+    "best_seed": 0,
+    "best_inertia": 4536.401756401101,
+    "n_iter": 6,
+    "cluster_counts": [
+        1192,
+        202,
+        1006
+    ],
+    "centers": [
+        [
+            2.0006279144829593,
+            2.0191789890364786
+        ],
+        [
+            8.06821078178052,
+            3.0208504157234857
+        ],
+        [
+            2.9633839140983147,
+            5.974746171953657
+        ]
+    ],
+    "figures": {
+        "data": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_2\\data.png",
+        "kmeans": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_2\\kmeans.png",
+        "inertia": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_2\\inertia.png"
+    }
+}

@@ -1,0 +1,234 @@
+[
+    {
+        "assignment": 1,
+        "algorithm": "KMeans",
+        "title": "Bài 1 - 3 cụm cân bằng",
+        "comment": "Dữ liệu gồm 3 cụm có cùng số lượng điểm và cùng covariance nên KMeans phân cụm khá tốt.",
+        "accuracy": 0.985,
+        "label_map": [
+            0,
+            2,
+            1
+        ],
+        "best_seed": 2,
+        "best_inertia": 1121.8444772936862,
+        "n_iter": 4,
+        "cluster_counts": [
+            201,
+            199,
+            200
+        ],
+        "centers": [
+            [
+                2.0211391297369308,
+                2.0199180376696315
+            ],
+            [
+                3.1905084928750713,
+                6.101671638100786
+            ],
+            [
+                7.939240270386296,
+                2.984071341155692
+            ]
+        ],
+        "figures": {
+            "data": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_1\\data.png",
+            "kmeans": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_1\\kmeans.png",
+            "inertia": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_1\\inertia.png"
+        }
+    },
+    {
+        "assignment": 2,
+        "algorithm": "KMeans",
+        "title": "Bài 2 - Kích thước cụm không cân bằng 1200-200-1000",
+        "comment": "Dữ liệu bài 2 có kích thước 1200, 200 và 1000 nên các cụm không cân bằng. KMeans vẫn có thể phân cụm tốt khi các cụm tách biệt, nhưng cụm nhỏ 200 điểm dễ bị ảnh hưởng bởi cách khởi tạo centroid hơn.",
+        "accuracy": 0.9770833333333333,
+        "label_map": [
+            0,
+            1,
+            2
+        ],
+        "best_seed": 0,
+        "best_inertia": 4536.401756401101,
+        "n_iter": 6,
+        "cluster_counts": [
+            1192,
+            202,
+            1006
+        ],
+        "centers": [
+            [
+                2.0006279144829593,
+                2.0191789890364786
+            ],
+            [
+                8.06821078178052,
+                3.0208504157234857
+            ],
+            [
+                2.9633839140983147,
+                5.974746171953657
+            ]
+        ],
+        "figures": {
+            "data": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_2\\data.png",
+            "kmeans": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_2\\kmeans.png",
+            "inertia": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_2\\inertia.png"
+        }
+    },
+    {
+        "assignment": 3,
+        "algorithm": "KMeans",
+        "title": "Bài 3 - Một cụm bị kéo dài",
+        "comment": "Một cụm có covariance lớn theo trục x nên có dạng elip. KMeans chỉ dùng khoảng cách đến tâm cụm nên xử lý dạng cụm này không tốt bằng GMM.",
+        "accuracy": 0.8983333333333333,
+        "label_map": [
+            0,
+            2,
+            1
+        ],
+        "best_seed": 2,
+        "best_inertia": 1985.3231224504648,
+        "n_iter": 5,
+        "cluster_counts": [
+            203,
+            147,
+            250
+        ],
+        "centers": [
+            [
+                1.9671380862104761,
+                2.050115510047098
+            ],
+            [
+                2.4422001586302864,
+                6.257337031608716
+            ],
+            [
+                7.827730815334451,
+                3.524193830394993
+            ]
+        ],
+        "figures": {
+            "data": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_3\\data.png",
+            "kmeans": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_3\\kmeans.png",
+            "inertia": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_3\\inertia.png"
+        }
+    },
+    {
+        "assignment": 4,
+        "algorithm": "GMM",
+        "title": "Bài 4 - Gaussian Mixture Model",
+        "comment": "GMM mô hình hóa cả mean và covariance nên phù hợp hơn KMeans khi cụm có dạng elip.",
+        "kmeans_accuracy": 0.8983333333333333,
+        "gmm_accuracy": 0.9616666666666667,
+        "kmeans_inertia": 1985.7622680391164,
+        "gmm_log_likelihood": -2515.7094006666857,
+        "gmm_n_iter": 35,
+        "kmeans_counts": [
+            205,
+            147,
+            248
+        ],
+        "gmm_counts": [
+            199,
+            197,
+            204
+        ],
+        "gmm_weights": [
+            0.33157952207027497,
+            0.3355898488322119,
+            0.33283062909751293
+        ],
+        "gmm_means": [
+            [
+                1.999915902565296,
+                2.0178604139343213
+            ],
+            [
+                3.6555193660970544,
+                6.049721730538473
+            ],
+            [
+                7.918608896091341,
+                2.9918451104981774
+            ]
+        ],
+        "gmm_covariances": [
+            [
+                [
+                    0.9428035656633464,
+                    -0.0415611214316157
+                ],
+                [
+                    -0.0415611214316157,
+                    0.8489745941027957
+                ]
+            ],
+            [
+                [
+                    8.512128078912827,
+                    -0.3221888702986576
+                ],
+                [
+                    -0.32218887029865756,
+                    1.127736566027321
+                ]
+            ],
+            [
+                [
+                    0.9874409035041826,
+                    -0.031044044628384154
+                ],
+                [
+                    -0.031044044628384136,
+                    1.050722336775696
+                ]
+            ]
+        ],
+        "figures": {
+            "data": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_4\\data.png",
+            "kmeans": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_4\\kmeans.png",
+            "gmm": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_4\\gmm.png",
+            "log_likelihood": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_4\\log_likelihood.png"
+        }
+    },
+    {
+        "assignment": 5,
+        "algorithm": "GMM image filtering",
+        "title": "Bài 5 - Lọc nền ảnh bằng GMM",
+        "comment": "Mỗi pixel được xem là một điểm dữ liệu RGB. GMM gom các pixel thành nhiều nhóm màu, sau đó chọn nhóm nền dựa trên số lượng pixel và độ xanh.",
+        "background_id": 1,
+        "component_counts": [
+            6258,
+            51136,
+            1406
+        ],
+        "component_means": [
+            [
+                38.7887002851848,
+                42.74153767811328,
+                27.486375467964486
+            ],
+            [
+                68.80518917729898,
+                87.93978565788777,
+                47.14158587512362
+            ],
+            [
+                169.49796600868933,
+                165.47727758150796,
+                143.21054068854926
+            ]
+        ],
+        "log_likelihood": 446616.91167479625,
+        "n_iter": 40,
+        "figures": {
+            "original": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_5\\original.png",
+            "mask": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_5\\mask.png",
+            "foreground": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_5\\foreground.png",
+            "log_likelihood": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_5\\log_likelihood.png"
+        }
+    }
+]

@@ -1,0 +1,37 @@
+{
+    "assignment": 5,
+    "algorithm": "GMM image filtering",
+    "title": "Bài 5 - Lọc nền ảnh bằng GMM",
+    "comment": "Mỗi pixel được xem là một điểm dữ liệu RGB. GMM gom các pixel thành nhiều nhóm màu, sau đó chọn nhóm nền dựa trên số lượng pixel và độ xanh.",
+    "background_id": 1,
+    "component_counts": [
+        6258,
+        51136,
+        1406
+    ],
+    "component_means": [
+        [
+            38.7887002851848,
+            42.74153767811328,
+            27.486375467964486
+        ],
+        [
+            68.80518917729898,
+            87.93978565788777,
+            47.14158587512362
+        ],
+        [
+            169.49796600868933,
+            165.47727758150796,
+            143.21054068854926
+        ]
+    ],
+    "log_likelihood": 446616.91167479625,
+    "n_iter": 40,
+    "figures": {
+        "original": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_5\\original.png",
+        "mask": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_5\\mask.png",
+        "foreground": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_5\\foreground.png",
+        "log_likelihood": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_5\\log_likelihood.png"
+    }
+}

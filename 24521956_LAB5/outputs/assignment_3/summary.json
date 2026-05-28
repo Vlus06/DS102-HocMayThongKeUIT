@@ -1,0 +1,39 @@
+{
+    "assignment": 3,
+    "algorithm": "KMeans",
+    "title": "Bài 3 - Một cụm bị kéo dài",
+    "comment": "Một cụm có covariance lớn theo trục x nên có dạng elip. KMeans chỉ dùng khoảng cách đến tâm cụm nên xử lý dạng cụm này không tốt bằng GMM.",
+    "accuracy": 0.8983333333333333,
+    "label_map": [
+        0,
+        2,
+        1
+    ],
+    "best_seed": 2,
+    "best_inertia": 1985.3231224504648,
+    "n_iter": 5,
+    "cluster_counts": [
+        203,
+        147,
+        250
+    ],
+    "centers": [
+        [
+            1.9671380862104761,
+            2.050115510047098
+        ],
+        [
+            2.4422001586302864,
+            6.257337031608716
+        ],
+        [
+            7.827730815334451,
+            3.524193830394993
+        ]
+    ],
+    "figures": {
+        "data": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_3\\data.png",
+        "kmeans": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_3\\kmeans.png",
+        "inertia": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_3\\inertia.png"
+    }
+}

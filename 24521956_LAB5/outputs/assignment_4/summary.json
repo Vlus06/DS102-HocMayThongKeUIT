@@ -1,0 +1,78 @@
+{
+    "assignment": 4,
+    "algorithm": "GMM",
+    "title": "Bài 4 - Gaussian Mixture Model",
+    "comment": "GMM mô hình hóa cả mean và covariance nên phù hợp hơn KMeans khi cụm có dạng elip.",
+    "kmeans_accuracy": 0.8983333333333333,
+    "gmm_accuracy": 0.9616666666666667,
+    "kmeans_inertia": 1985.7622680391164,
+    "gmm_log_likelihood": -2515.7094006666857,
+    "gmm_n_iter": 35,
+    "kmeans_counts": [
+        205,
+        147,
+        248
+    ],
+    "gmm_counts": [
+        199,
+        197,
+        204
+    ],
+    "gmm_weights": [
+        0.33157952207027497,
+        0.3355898488322119,
+        0.33283062909751293
+    ],
+    "gmm_means": [
+        [
+            1.999915902565296,
+            2.0178604139343213
+        ],
+        [
+            3.6555193660970544,
+            6.049721730538473
+        ],
+        [
+            7.918608896091341,
+            2.9918451104981774
+        ]
+    ],
+    "gmm_covariances": [
+        [
+            [
+                0.9428035656633464,
+                -0.0415611214316157
+            ],
+            [
+                -0.0415611214316157,
+                0.8489745941027957
+            ]
+        ],
+        [
+            [
+                8.512128078912827,
+                -0.3221888702986576
+            ],
+            [
+                -0.32218887029865756,
+                1.127736566027321
+            ]
+        ],
+        [
+            [
+                0.9874409035041826,
+                -0.031044044628384154
+            ],
+            [
+                -0.031044044628384136,
+                1.050722336775696
+            ]
+        ]
+    ],
+    "figures": {
+        "data": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_4\\data.png",
+        "kmeans": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_4\\kmeans.png",
+        "gmm": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_4\\gmm.png",
+        "log_likelihood": "c:\\DS102\\Lab3\\24521956_LAB5\\outputs\\assignment_4\\log_likelihood.png"
+    }
+}
